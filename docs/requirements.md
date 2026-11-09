@@ -62,15 +62,25 @@ TODO: Your Use-Case diagram should include all use-cases.
 ## Software Requirements Specification
 ### Functional requirements
 FR1 The system shall display a list of available bristol neighbourhoods. - UC1
+
 FR2 the system shall allow users to search for specific bristol neighbourhood UC1
+
 FR3 the system shall allow users to select a neighbourhood to view its health information UC1
+
 FR4 The system shall retrieve health statistics for selected neighbourhoods, including life expectancy, smoking rates, long term health conditions and premature deaths - UC2 
+
 FR5 the system shall display the health stats for the selected neighbourhood  UC2
+
 FR6 The system shall retrieve the bristol wide avg health stats for comparison UC3
+
 FR7 the system shall allow users to compare the selected neighbourhoods health stats with the bristol avg UC3
+
 FR8 the system shall display available trend in health stats over time UC3
+
 FR9 The system shall allow users to explore individual health indicators UC4
+
 FR10 The system shall present health info using graphs and charts UC4
+
 FR11 The system shall display key insights to help users understand the health info UC4
 
 
