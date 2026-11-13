@@ -85,7 +85,28 @@ FR11 The system shall display key insights to help users understand the health i
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+NFR1 - Usability ( people should find BristolPulse easy to use ) 
+quality attribute : usability
+use case - UC1. UC2
+The system shall shall have a simple and easy to undersatnd interface so that users can select a bristol neighbourhood and view its health statistics without difficulty 
 
-Indicate which UC the requirement comes from.
+NRF2 - Perfomance ( health stats should load quickly)
+Quality attribute : Efficiency
+use case - UC2,UC3
+The system shall display the requested health statistics within 5 seconds under normal internet and API conditions 
+
+NFR3 - Reliability (the app should handle API errors properly)
+Quality attribute : Reliability
+Use case : UC2, UC3
+The system shall display a clear error message if the bristol open data API is unvavailable or the requested data cannot be retrieved 
+
+NFR4 - Accessibility (text, colours and navigation should be easy to use )
+Quality attribute : Usability 
+use case : UC1, UC2, UC3
+The system shall use readable text, suitable colour contrast and clear navigation to make the application accessbile to users with different needs 
+
+MFR5 - Compatibility ( The app should work across common browsers )
+Quality attrubute - Portability 
+Use case : UC1, UC2, Uc3
+
+the system shall work correctly on the latest versions of commonly used web browsers, including google chrome, microsoft edge, safari. 
